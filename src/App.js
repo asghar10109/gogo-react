@@ -79,7 +79,7 @@ class App extends React.Component {
                     render={(props) => <ViewError {...props} />}
                   />
                   <Route
-                    path="/unauthorized"
+                    path="/unauthorizeds"
                     exact
                     render={(props) => <ViewUnauthorized {...props} />}
                   />
